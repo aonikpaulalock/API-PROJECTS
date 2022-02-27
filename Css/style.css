@@ -1,0 +1,52 @@
+/* ============  Goggle Fonts ============= */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Button-style{
+  padding: 10px;
+  border-radius: 20px;
+}
+.Fonts{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.navs{
+  background-color: rgb(245, 246, 235);
+  box-shadow: 5px 5px 15px rgb(212, 212, 212);
+}
+.after-before{
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.after-before::after{
+  content: "";
+  position: absolute;
+  left: 30%;
+  bottom: -30%;
+  width: 0%;
+  height: 4px;
+  background-color: blue;
+  border-radius: 15px;
+  transition: width 4s linear;
+}
+.after-before:hover::after{
+  width:40%;
+}
+.imgage-Bg{
+  background-color: rgb(203, 251, 251);
+}
+#Spiners-grow{
+  display: none;
+}
+#error{
+  display: none;
+}
